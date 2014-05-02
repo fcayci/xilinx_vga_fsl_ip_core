@@ -1,5 +1,6 @@
- ## VGA IP Core for Xilinx
+## VGA IP Core for Xilinx
 * 640x480 Resolution
+* Connects to microblaze processor using FSL
 * Tested with 14.6 ISE Design Suite
 * Supports hard-coded 4 x 10-byte objects. Check `vga_fsl.vhd` to change it.
 
