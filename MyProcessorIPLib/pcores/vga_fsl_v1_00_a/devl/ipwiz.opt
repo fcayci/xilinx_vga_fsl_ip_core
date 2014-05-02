@@ -1,0 +1,11 @@
+-batch 
+-create vga_fsl 
+-ver 1.00.a 
+-dir /home/bee/xilinx/ips/MyProcessorIPLib/ 
+-lang vhdl 
+-bus fsl s 
+-xps 
+-driver 
+-totalin 4
+-argin 1
+-desc "VGA Driver connected to the FSL"

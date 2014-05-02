@@ -1,0 +1,113 @@
+HDL language for the peripheral (top level) design unit vga_sync_640_60 is vhdl
+...
+INFO:EDK:3391 - Create temporary xst project file:
+   /home/bee/xilinx/ips/MyProcessorIPLib/pcores/vga_fsl.prj
+Compiling vhdl file
+"/home/bee/xilinx/ips/MyProcessorIPLib/pcores/vga_fsl_v1_00_a/hdl/vhdl/vga_sync_
+640_60.vhd" in Library vga_fsl_v1_00_a.
+Entity <vga_sync> compiled.
+Entity <vga_sync> (Architecture <arch>) compiled.
+Compiling vhdl file
+"/home/bee/xilinx/ips/MyProcessorIPLib/pcores/vga_fsl_v1_00_a/hdl/vhdl/vga_buffe
+r.vhd" in Library vga_fsl_v1_00_a.
+Entity <vga_buffer> compiled.
+Entity <vga_buffer> (Architecture <arch>) compiled.
+Compiling vhdl file
+"/home/bee/xilinx/ips/MyProcessorIPLib/pcores/vga_fsl_v1_00_a/hdl/vhdl/vga_top.v
+hd" in Library vga_fsl_v1_00_a.
+Entity <vga_top> compiled.
+Entity <vga_top> (Architecture <arch>) compiled.
+Compiling vhdl file
+"/home/bee/xilinx/ips/MyProcessorIPLib/pcores/vga_fsl_v1_00_a/hdl/vhdl/vga_fsl.v
+hd" in Library vga_fsl_v1_00_a.
+Entity <vga_fsl> compiled.
+ERROR:HDLParsers:837 -
+   "/home/bee/xilinx/ips/MyProcessorIPLib/pcores/vga_fsl_v1_00_a/hdl/vhdl/vga_fs
+   l.vhd" Line 218. Width mismatch. Expected width 3, Actual width is 8 for
+   dimension 1 of rgb.
+ERROR:EDK:2121 - Parse Errors encountered in HDL source
+HDL language for the peripheral (top level) design unit vga_sync_640_60 is vhdl
+...
+INFO:EDK:3391 - Create temporary xst project file:
+   /home/bee/xilinx/ips/MyProcessorIPLib/pcores/vga_fsl.prj
+Compiling vhdl file
+"/home/bee/xilinx/ips/MyProcessorIPLib/pcores/vga_fsl_v1_00_a/hdl/vhdl/vga_sync_
+640_60.vhd" in Library vga_fsl_v1_00_a.
+Entity <vga_sync> compiled.
+Entity <vga_sync> (Architecture <arch>) compiled.
+Compiling vhdl file
+"/home/bee/xilinx/ips/MyProcessorIPLib/pcores/vga_fsl_v1_00_a/hdl/vhdl/vga_buffe
+r.vhd" in Library vga_fsl_v1_00_a.
+Entity <vga_buffer> compiled.
+Entity <vga_buffer> (Architecture <arch>) compiled.
+Compiling vhdl file
+"/home/bee/xilinx/ips/MyProcessorIPLib/pcores/vga_fsl_v1_00_a/hdl/vhdl/vga_top.v
+hd" in Library vga_fsl_v1_00_a.
+Entity <vga_top> compiled.
+Entity <vga_top> (Architecture <arch>) compiled.
+Compiling vhdl file
+"/home/bee/xilinx/ips/MyProcessorIPLib/pcores/vga_fsl_v1_00_a/hdl/vhdl/vga_fsl.v
+hd" in Library vga_fsl_v1_00_a.
+Entity <vga_fsl> compiled.
+Entity <vga_fsl> (Architecture <EXAMPLE>) compiled.
+
+
+Analyzing HDL attributes ...
+Entity name = vga_fsl
+INFO:EDK:1607 - IPTYPE set to value : PERIPHERAL
+INFO:EDK:1511 - IMP_NETLIST set to value : TRUE
+INFO:EDK:1486 - HDL set to value : VHDL
+INFO:EDK:1953 - No SIGIS=RST specified for probable Reset signal FSL_Rst
+WARNING:EDK:2065 - PARAMETER:_AWIDTH - SLAVE FSL parameter is not defined in the
+   HDL source
+WARNING:EDK:2065 - PARAMETER:_DWIDTH - SLAVE FSL parameter is not defined in the
+   HDL source
+WARNING:EDK:2065 - PARAMETER:_NUM_SLAVES - SLAVE FSL parameter is not defined in
+   the HDL source
+WARNING:EDK:2065 - PARAMETER:_NUM_MASTERS - SLAVE FSL parameter is not defined
+   in the HDL source
+WARNING:EDK:2065 - PARAMETER:_MID_WIDTH - SLAVE FSL parameter is not defined in
+   the HDL source
+INFO:EDK:1631 - Infer bus clock [FSL_Clk] for bus interface SFSL ...
+INFO:EDK:1632 - Infer bus reset [FSL_Rst] for bus interface SFSL ...
+Copying file vga_fsl.vhd to
+/home/bee/xilinx/ips/MyProcessorIPLib/pcores/vga_fsl_v1_00_a/hdl/vhdl/ ...
+Copying file vga_top.vhd to
+/home/bee/xilinx/ips/MyProcessorIPLib/pcores/vga_fsl_v1_00_a/hdl/vhdl/ ...
+Copying file vga_buffer.vhd to
+/home/bee/xilinx/ips/MyProcessorIPLib/pcores/vga_fsl_v1_00_a/hdl/vhdl/ ...
+Copying file vga_sync_640_60.vhd to
+/home/bee/xilinx/ips/MyProcessorIPLib/pcores/vga_fsl_v1_00_a/hdl/vhdl/ ...
+
+Thank you for using Create and Import Peripheral Wizard! Please find your
+imported peripheral under
+/home/bee/xilinx/ips/MyProcessorIPLib/pcores/vga_fsl_v1_00_a.
+
+Summary:
+
+  Logical library     : vga_fsl_v1_00_a
+  Version             : 1.00.a
+  Bus interface(s)    : SFSL 
+
+The following sub-directories will be created:
+
+  - vga_fsl_v1_00_a/data
+  - vga_fsl_v1_00_a/hdl
+  - vga_fsl_v1_00_a/hdl/verilog
+  - vga_fsl_v1_00_a/hdl/vhdl
+
+
+The following HDL source files will be copied into the vga_fsl_v1_00_a/hdl/vhdl
+directory:
+
+  - vga_fsl.vhd
+  - vga_top.vhd
+  - vga_buffer.vhd
+  - vga_sync_640_60.vhd
+
+The following files will be created under the vga_fsl_v1_00_a/data directory:
+
+  - vga_fsl_v2_1_0.mpd
+  - vga_fsl_v2_1_0.pao
+
+
